@@ -4,11 +4,11 @@ from flask import Flask, jsonify, request
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
 
 # Initialize processor and and model
-#processor = Wav2Vec2Processor.from_pretrained("facebook/wav2vec2-large-960h")
-#model = Wav2Vec2ForCTC.from_pretrained("facebook/wav2vec2-large-960h")
+processor = Wav2Vec2Processor.from_pretrained("facebook/wav2vec2-large-960h")
+model = Wav2Vec2ForCTC.from_pretrained("facebook/wav2vec2-large-960h")
 
-processor = Wav2Vec2Processor.from_pretrained("/Users/sunil/Documents/repos/asr-technical-assessment/model/wav2vec2-large-960h-cv")
-model = Wav2Vec2ForCTC.from_pretrained("/Users/sunil/Documents/repos/asr-technical-assessment/model/wav2vec2-large-960h-cv")
+#processor = Wav2Vec2Processor.from_pretrained("/Users/sunil/Documents/repos/asr-technical-assessment/model/wav2vec2-large-960h-cv")
+#model = Wav2Vec2ForCTC.from_pretrained("/Users/sunil/Documents/repos/asr-technical-assessment/model/wav2vec2-large-960h-cv")
 
 
 # Define the target sample rate
