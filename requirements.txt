@@ -1,0 +1,10 @@
+ipykernel
+pandas
+torch
+torchaudio
+transformers
+flask
+argparse
+scikit-learn
+matplotlib
+jiwer
