@@ -1,4 +1,5 @@
 ipykernel
+soundfile
 pandas
 torch
 torchaudio

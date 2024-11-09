@@ -2,7 +2,8 @@
 
 ## Set Up
 1. Clone the repository
-2. Install the dependencies using `pip install -r requirements.txt`
+2. Create a new enviroment using `conda create --name myenv ipykernel`
+3. Install the dependencies using `pip install -r requirements.txt`
 
 ### Note 
 TorchAudio might require ffmpeg to be installed in your device. If you experience any issues, you can install ffmpeg using the following command: `brew install ffmpeg`
