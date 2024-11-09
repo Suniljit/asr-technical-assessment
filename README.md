@@ -7,6 +7,9 @@
 ### Note 
 TorchAudio might require ffmpeg to be installed in your device. If you experience any issues, you can install ffmpeg using the following command: `brew install ffmpeg`
 
+### Model File
+The fine-tuned model file from Task 3 can be downloaded [here](https://drive.google.com/drive/folders/1-w_da-7qr6NT9X9NNKUnIe_6bYaVEPPz?usp=share_link)
+
 ## Set Up for Task 5B
 In Task 5B, we'll be using an embeddings model by installing the InstructorEmbedding library. This library and its requirements conflict the dependencies for the other tasks. Hence, we will use a seperate enviroment for this task. Below are the instructions:
 1. Create a new enviroment with Python 3.10: `conda create --name myenv2 python=3.10`
