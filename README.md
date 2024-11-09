@@ -131,6 +131,6 @@ The file detected.txt was generated, which contains the filenames that contain t
 # Task 5B
 We used an embeddings model to find files that that similar phrases to the three hot words from Task 5A. The results are as follows:
 - 12 of the 15 files in detected.txt were found in the similarity data.
-- 3 of the 15 files in detected.txt were not found in the similarity data.
+- 3 of the 15 files in detected.txt were not found in the similarity data. But they had a high similarity score, just under the threshold of 0.85.
 - 16 extra files, not found in detected.txt, were found in the similarity data. Looking through some of them, they have words that are similar to the hot words, which could be why they were included in the similarity data.
 
